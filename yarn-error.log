@@ -1,30 +1,30 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+  C:\Program Files\nodejs\node.exe C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
-  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Git\cmd;C:\Users\Caprion\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Caprion\AppData\Local\Microsoft\WindowsApps;C:\Users\Caprion\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Caprion\AppData\Roaming\npm;C:\Users\Caprion\AppData\Roaming\nvm;C:\Program Files\nodejs
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Bhargab kalita\AppData\Local\Microsoft\WindowsApps;;C:\Users\Bhargab kalita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bhargab kalita\AppData\Roaming\npm
 
 Yarn version: 
   1.22.19
 
 Node version: 
-  16.14.0
+  16.15.0
 
 Platform: 
   win32 x64
 
 Trace: 
   Invariant Violation: Commit hash required
-      at invariant (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:2318:15)
-      at GitFetcher.<anonymous> (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89316:7)
+      at invariant (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:2318:15)
+      at GitFetcher.<anonymous> (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89316:7)
       at Generator.next (<anonymous>)
-      at step (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
-      at C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:328:14
+      at step (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:328:14
       at new Promise (<anonymous>)
-      at new F (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5305:28)
-      at GitFetcher.<anonymous> (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:307:12)
-      at GitFetcher.fetchFromExternal (C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89334:20)
-      at C:\Users\Caprion\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89484:21
+      at new F (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5305:28)
+      at GitFetcher.<anonymous> (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:307:12)
+      at GitFetcher.fetchFromExternal (C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89334:20)
+      at C:\Users\Bhargab kalita\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89484:21
 
 npm manifest: 
   {

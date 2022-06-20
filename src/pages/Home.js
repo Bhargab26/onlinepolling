@@ -153,15 +153,15 @@ const Home = () => {
     <>
       <div className="content">
         <TabList defaultActiveKey={1} tabStyle="bulbUnion">
-          <Tab tabKey={1} tabName="DAO">
+          <Tab tabKey={1} tabName="HOME">
             {proposals && (
-            <div className="tabContent">
+            <div className="tabContent" >
               Governance Overview
               <div className="widgets">
                 <Widget
                   info={totalP}
                   title="Proposals Created"
-                  style={{ width: "200%" }}
+                  style={{ width: "100%", font:"Trirong" }}
                 >
                   <div className="extraWidgetInfo">
                     <div className="extraTitle">Pass Rate</div>
@@ -173,11 +173,11 @@ const Home = () => {
                     </div>
                   </div>
                 </Widget>
-                <Widget info={voters.length} title="Eligible Voters" />
+                <Widget info={voters.length} title="Eligible Voters"  />
                 <Widget info={totalP-counted} title="Ongoing Proposals" />
               </div>
               Recent Proposals
-              <div style={{ marginTop: "30px" }}>
+              <div style={{ marginTop: "30px"}}>
                 <Table
                   columnsConfig="10% 70% 20%"
                   data={proposals}
@@ -186,11 +186,18 @@ const Home = () => {
                     <span>Description</span>,
                     <span>Status</span>,
                   ]}
-                  pageSize={5}
+                  pageSize={3}
                 />
               </div>
 
-              <Form
+              
+
+            </div>
+            )}
+          </Tab>
+          <Tab tabKey={2} tabName="New">
+          <div className="tabContent">
+          <Form style={{marginTop:"50px", width:"500px", position:"absolute", top:"0%", right:"20%"}}
                   buttonConfig={{
                     isLoading: sub,
                     loadingText: "Submitting Proposal",
@@ -200,6 +207,7 @@ const Home = () => {
                   data={[
                     {
                       inputWidth: "100%",
+                     
                       name: "New Proposal",
                       type: "textarea",
                       validation: {
@@ -214,13 +222,10 @@ const Home = () => {
                   }}
                   title="Create a New Proposal"
                 />
+                </div>
 
-
-            </div>
-            )}
           </Tab>
-          <Tab tabKey={2} tabName="Forum"></Tab>
-          <Tab tabKey={3} tabName="Docs"></Tab>
+          <Tab tabKey={3} tabName="Result"></Tab>
         </TabList>
       </div>
       

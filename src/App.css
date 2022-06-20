@@ -1,3 +1,7 @@
+*{
+  font-family: "Trirong", serif !important;
+  font-weight: bold !important;
+}
 .header {
   padding: 30px;
   display: flex;

@@ -118,7 +118,7 @@ const Proposal = () => {
         <div className="proposal">
           <Link to="/">
             <div className="backHome">
-              <Icon fill="#ffffff" size={20} svg="chevronLeft" />
+              <Icon fill="#ffffff" size={30} svg="chevronLeft" />
               Overview
             </div>
           </Link>
