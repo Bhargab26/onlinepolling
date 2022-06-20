@@ -13,8 +13,8 @@ const App = () => {
         <img width="40px" src={polygonLogo} alt="logo" />
         <ConnectButton />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
+      <Routes basename="/onlinepolling">
+        <Route  exact path="/" render={<Home />} />
         <Route path="/proposal" element={<Proposal />} />
       </Routes>
     </>
