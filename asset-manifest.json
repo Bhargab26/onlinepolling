@@ -10,9 +10,9 @@
     "static/js/3.ed95bbba.chunk.js.map": "/onlinepolling/static/js/3.ed95bbba.chunk.js.map",
     "static/js/4.b22de3ca.chunk.js": "/onlinepolling/static/js/4.b22de3ca.chunk.js",
     "static/js/4.b22de3ca.chunk.js.map": "/onlinepolling/static/js/4.b22de3ca.chunk.js.map",
-    "main.css": "/onlinepolling/static/css/main.80761c60.chunk.css",
-    "main.js": "/onlinepolling/static/js/main.74c7c5eb.chunk.js",
-    "main.js.map": "/onlinepolling/static/js/main.74c7c5eb.chunk.js.map",
+    "main.css": "/onlinepolling/static/css/main.38f920df.chunk.css",
+    "main.js": "/onlinepolling/static/js/main.8c114916.chunk.js",
+    "main.js.map": "/onlinepolling/static/js/main.8c114916.chunk.js.map",
     "runtime-main.js": "/onlinepolling/static/js/runtime-main.6922394b.js",
     "runtime-main.js.map": "/onlinepolling/static/js/runtime-main.6922394b.js.map",
     "static/js/7.ea612dde.chunk.js": "/onlinepolling/static/js/7.ea612dde.chunk.js",
@@ -40,7 +40,7 @@
     "static/js/18.cd84b608.chunk.js": "/onlinepolling/static/js/18.cd84b608.chunk.js",
     "static/js/18.cd84b608.chunk.js.map": "/onlinepolling/static/js/18.cd84b608.chunk.js.map",
     "index.html": "/onlinepolling/index.html",
-    "static/css/main.80761c60.chunk.css.map": "/onlinepolling/static/css/main.80761c60.chunk.css.map",
+    "static/css/main.38f920df.chunk.css.map": "/onlinepolling/static/css/main.38f920df.chunk.css.map",
     "static/js/1.cc1627cf.chunk.js.LICENSE.txt": "/onlinepolling/static/js/1.cc1627cf.chunk.js.LICENSE.txt",
     "static/js/3.ed95bbba.chunk.js.LICENSE.txt": "/onlinepolling/static/js/3.ed95bbba.chunk.js.LICENSE.txt",
     "static/js/4.b22de3ca.chunk.js.LICENSE.txt": "/onlinepolling/static/js/4.b22de3ca.chunk.js.LICENSE.txt",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.6922394b.js",
     "static/js/7.ea612dde.chunk.js",
-    "static/css/main.80761c60.chunk.css",
-    "static/js/main.74c7c5eb.chunk.js"
+    "static/css/main.38f920df.chunk.css",
+    "static/js/main.8c114916.chunk.js"
   ]
 }
